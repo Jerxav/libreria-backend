@@ -2,6 +2,7 @@
 const { Router } = require("express");
 const { getAutor, postAutor, getAutorById, putAutor, deleteAutor, getLibrosAutor } = require("../controllers/autores.controller");
 const { getLibros, getLibrosByCodigo, postLibro, putLibro, deleteLibro } = require("../controllers/libros.controllers");
+const {getEditorial, postEditorial, putEditorial, deleteEditorial}  = require("../controllers/editorial_controllers")
 const router = Router();
 
 const URLV1 = "/v1";
