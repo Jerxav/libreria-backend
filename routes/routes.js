@@ -15,6 +15,10 @@ router.delete(URLV1 + "/autores/:id", deleteAutor);
 router.get(URLV1 + "/autor/libros", getLibrosAutor);
 
 //Rutas Editoriales V1
+router.get(URLV1 + "/editorial",getEditorial);
+router.post(URLV1 + "/editorial",postEditorial);
+router.put(URLV1 + "/editorial/:edi_id",putEditorial);
+router.delete(URLV1 + "/editorial/:edi_id",deleteEditorial);
 
 //Rutas Libros V1
 router.get(URLV1 + "/libros", getLibros);
